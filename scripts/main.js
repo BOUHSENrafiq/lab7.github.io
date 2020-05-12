@@ -7,7 +7,7 @@ var routes = [
         path: 'Monprofil',// index#Monprofil
         view: 'monprofil', // La vue sans extension = /views/monprofil.html
         viewModel: MonprofilViewModel, //  /view-models/monprofil-view-models.js
-        isDefault: true
+        isDefault: false
     },
 
     {
