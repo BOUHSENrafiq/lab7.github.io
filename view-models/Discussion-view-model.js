@@ -6,7 +6,7 @@ var DiscussionViewModel = (function () {
         console.log('DiscussionViewModel::onDestroy()');
     };
     return {
-        onInit: _onInit,
-        onDestroy: _onDestroy
+        onInittt: _onInit,
+        onDestroyyy: _onDestroy
     };
 })();

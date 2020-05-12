@@ -1,22 +1,27 @@
-import DiscussionModelView from 'view-models/Discussion-view-model.js';
 /**
  * main.js
  * Ce fichier sert à démarrer l'application.
  */
 var routes = [
     {
-        path: 'Monprofil',// index#monprofil
-        view: 'monprofil', // Vue = /views/monprofil.html
-        viewModel: MonprofilViewModel, // Voir /view-models/monprofil-view-models.js
+        path: 'Monprofil',// index#Monprofil
+        view: 'monprofil', // La vue sans extension = /views/monprofil.html
+        viewModel: MonprofilViewModel, //  /view-models/monprofil-view-models.js
+        isDefault: true
+    },
+
+    {
+        path: 'Discussion',// index#Monprofil
+        view: 'discussion', // La vue sans extension = /views/monprofil.html
+        viewModel: DiscussionViewModel, //  /view-models/monprofil-view-models.js
         isDefault: false
     },
     {
-        path: 'Discussion',
-        view: 'discussion',
-        viewModel: DiscussionViewModel,
-
-    },
-
+        path: 'Participants',// index#Monprofil
+        view: 'listedesparticipants', // La vue sans extension = /views/monprofil.html
+        viewModel: listedesparticipantsViewModel, //  /view-models/monprofil-view-models.js
+        isDefault: false
+    }
 ];
 
 /**
