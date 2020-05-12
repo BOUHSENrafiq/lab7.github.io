@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB 7</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/lab7.css" type="text/css">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="scripts/lab7.js"></script>
+
+</head>
+<body>
+<header class="container-fluid">
+    <nav class="row">
+        <div id="menu" class="col-1">
+            <div id="item" class="col-12">
+                <p id="liste">Liste</p>
+            </div>
+            <div id="submenu" class="col-12">
+                <div><a href="#Listedesetudiants" id="listedesetudiants">Liste des étudiants</a></div>
+                <div><a href="#Monprofil" id="monprofil">Mon profil</a></div>
+                <div><a href="#Quitter" id="quitter">Quitter</a></div>
+            </div>
+        </div>
+        <div id="a" class="col-4">
+            <a href="#Discussion" id="f">Discussion</a>
+        </div>
+        <div id="b" class="col-4">
+            <a href="#Traveauxetdevoirs" id="g">Traveaux et devoirs</a>
+        </div>
+        <div id="c" class="col-3">
+            <a href="#Participants" id="h">Participants</a>
+        </div>
+    </nav>
+</header>
+<section id="maincontent" class="cc">
+
+</section>
+
+<!-- Scripts à la fin pour laisser le DOM se charger -->
+<script src="scripts/component-loader.js"></script>
+<script src="scripts/application-router.js"></script>
+<script src="view-models/Monprofil-view-model.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
